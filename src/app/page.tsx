@@ -1,6 +1,9 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Portfolio() {
   return (
-    <div className="container mx-auto px-5">
+    <div className="container mx-auto px-5 py-10">
       <section>
         <div className="sm:flex text-center sm:text-left items-center justify-center sm:justify-between flex flex-col-reverse sm:flex-row sm:gap-10 z-10 relative">
           <div>
@@ -64,7 +67,7 @@ export default function Portfolio() {
         </h2>
         <div className="flex flex-wrap gap-8">
           <div className="w-full md:w-[calc(50%-1rem)] border p-4 rounded-lg cursor-pointer">
-            <a href="projects/meetmapper.html">
+            <Link href="projects/meetmapper">
               <img
                 src="./assets/portfolio/images/meetmapper.png"
                 alt="Meet Mapper"
@@ -85,34 +88,36 @@ export default function Portfolio() {
                   NextJS
                 </li>
               </ul>
-            </a>
+            </Link>
           </div>
-          <div className="w-full md:w-[calc(50%-1rem)] border p-4 rounded-lg cursor-pointer">
-            <a href="projects/cowork.html">
-              <img
-                src="./assets/portfolio/images/cowork.png"
+          <div className="w-full md:w-[calc(50%-1rem)] border p-4 rounded-lg cursor-pointer relative">
+            <a href="projects/budget2travel">
+              <Image
+                src="/assets/portfolio/images/budget2travel.png"
                 alt="Cowork"
                 className="w-full h-48 object-cover rounded-lg mb-4 bg-white"
+                width={500}
+                height={300}
               />
-              <p className="font-semibold text-2xl">💻 Cowork</p>
+              <p className="font-semibold text-2xl">✈️ Budget2travel</p>
               <p className="text-gray-400 mb-4 text-sm">
-                App web de réservation d'espace de coworking.
+                Site web d'estimation de coût de voyage.
               </p>
               <ul className="flex gap-2">
                 <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
-                  NextJS
-                </li>
-                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
-                  React
-                </li>
-                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
                   Typescript
+                </li>
+                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
+                  Nuxt
+                </li>
+                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
+                  Vue
                 </li>
               </ul>
             </a>
           </div>
           <div className="w-full md:w-[calc(50%-1rem)] border p-4 rounded-lg cursor-pointer relative">
-            <a href="projects/save.html">
+            <Link href="projects/groupesave">
               <img
                 src="./assets/portfolio/images/SAVE.png"
                 alt="Cowork"
@@ -135,28 +140,29 @@ export default function Portfolio() {
                   NextJS
                 </li>
               </ul>
-            </a>
+            </Link>
           </div>
-          <div className="w-full md:w-[calc(50%-1rem)] border p-4 rounded-lg cursor-pointer relative">
-            <a href="projects/todo.html">
+
+          <div className="w-full md:w-[calc(50%-1rem)] border p-4 rounded-lg cursor-pointer">
+            <a href="projects/cowork.html">
               <img
-                src="./assets/portfolio/images/TODO.png"
+                src="./assets/portfolio/images/cowork.png"
                 alt="Cowork"
                 className="w-full h-48 object-cover rounded-lg mb-4 bg-white"
               />
-              <p className="font-semibold text-2xl">✅ Todo App</p>
+              <p className="font-semibold text-2xl">💻 Cowork</p>
               <p className="text-gray-400 mb-4 text-sm">
-                Développement d'une app de todo list avec React et Spring Boot.
+                App web de réservation d'espace de coworking.
               </p>
               <ul className="flex gap-2">
                 <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
+                  NextJS
+                </li>
+                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
+                  React
+                </li>
+                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
                   Typescript
-                </li>
-                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
-                  Java
-                </li>
-                <li className="bg-sky-100 py-1 px-2 rounded-md text-sky-800">
-                  Spring Boot
                 </li>
               </ul>
             </a>
