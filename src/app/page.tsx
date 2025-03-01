@@ -10,7 +10,7 @@ export default function Portfolio() {
             <div>
               <p className="text-xl">Hi, I'm Colin Noiret 👋</p>
               <h2 className="text-6xl font-bold text-gray-800 mb-4 bg-gradient-to-r from-[#680cbb] to-[#00aeff] inline-block text-transparent bg-clip-text">
-                I'm a Fullstack Developer
+                I'm a Frontend Developer
               </h2>
             </div>
             <p className="text-2xl text-gray-400 font-light mb-10">
