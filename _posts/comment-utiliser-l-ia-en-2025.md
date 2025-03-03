@@ -10,8 +10,6 @@ ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
-# Introduction
-
 On entend souvent dire qu'avec les IA et les outils boostés à l'IA qui poussent comme des champignons en ce moment vont révolutionner le monde du développement et le quotidien des développeurs. C'est vrai mais en tant que développeurs, nous n'avons jamais été formés à utiliser ces outils. Et pour ma part j'en ai fait les frais...
 
 Cela fait maintenant trois ans que je suis développeur, et une grande partie de mon parcours a été marquée par l’utilisation des outils IA. J'ai été impressionné, et j'ai pris ces outils comme acquis, je les incluses directement dans mon workflow de travail sans me poser plus de questions sur la façon de travailler avec. Cette pratique m’a conduit à prendre de mauvaises habitudes de développement.
