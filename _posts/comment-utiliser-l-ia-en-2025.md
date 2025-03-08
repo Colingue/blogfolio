@@ -2,7 +2,7 @@
 title: "Comment utiliser l'ia en tant que développeur en 2025"
 excerpt: ""
 coverImage: "/assets/blog/codewithai/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2025-03-01"
 author:
   name: Colin Noiret
   picture: "/assets/blog/authors/colin.jpeg"
