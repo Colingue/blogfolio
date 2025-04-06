@@ -1,7 +1,7 @@
 ---
 title: "Guide complet pour gérer les erreurs côté front (Next.js & React)"
 excerpt: ""
-coverImage: "/assets/blog/comprendre-methodes-rendu/cover.jpg"
+coverImage: "/assets/blog/guide-complet-pour-gerer-les-erreurs-cote-front/cover.jpg"
 date: "2025-04-06"
 author:
   name: Colin Noiret
